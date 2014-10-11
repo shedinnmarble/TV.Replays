@@ -1,0 +1,17 @@
+F:\github\TV.Replays\ConsoleTest\bin\Debug\ConsoleTest.exe
+F:\github\TV.Replays\ConsoleTest\bin\Debug\ConsoleTest.pdb
+F:\github\TV.Replays\ConsoleTest\bin\Debug\TV.Replays.BLL.dll
+F:\github\TV.Replays\ConsoleTest\bin\Debug\TV.Replays.IDAL.dll
+F:\github\TV.Replays\ConsoleTest\bin\Debug\TV.Replays.Model.dll
+F:\github\TV.Replays\ConsoleTest\bin\Debug\System.Net.Http.dll
+F:\github\TV.Replays\ConsoleTest\bin\Debug\HtmlAgilityPack.dll
+F:\github\TV.Replays\ConsoleTest\bin\Debug\TV.Replays.BLL.pdb
+F:\github\TV.Replays\ConsoleTest\bin\Debug\TV.Replays.IDAL.pdb
+F:\github\TV.Replays\ConsoleTest\bin\Debug\TV.Replays.Model.pdb
+F:\github\TV.Replays\ConsoleTest\bin\Debug\System.Net.Http.xml
+F:\github\TV.Replays\ConsoleTest\bin\Debug\HtmlAgilityPack.pdb
+F:\github\TV.Replays\ConsoleTest\bin\Debug\HtmlAgilityPack.xml
+F:\github\TV.Replays\ConsoleTest\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+F:\github\TV.Replays\ConsoleTest\obj\Debug\ConsoleTest.csprojResolveAssemblyReference.cache
+F:\github\TV.Replays\ConsoleTest\obj\Debug\ConsoleTest.exe
+F:\github\TV.Replays\ConsoleTest\obj\Debug\ConsoleTest.pdb
