@@ -11,15 +11,30 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            DouYuTv douyuTv = new DouYuTv();
-            var lives = douyuTv.GetDota2();
+            List<Player> players = new List<Player>();
+            Player igCuojue = new Player();
+            igCuojue.Name = "iG错觉";
+            igCuojue.LiveRooms.Add(new LiveRoom { Name = TvName.DouYu, Url = "http://www.douyutv.com/CuoJue" });
+            igCuojue.LiveRooms.Add(new LiveRoom { Name = TvName._17173, Url = "http://www.tv.17173.com/Cuojue" });
+            igCuojue.GameName = GameName.Dota2;
+            igCuojue.Description = "ig前职业";
+            igCuojue.Gender = "男";
 
-            foreach (var live in lives)
-            {
-                Console.WriteLine(live.GetVideoHtmlCode());
-            }
+            Player tf = new Player();
+            tf.Name = "早起的帕吉";
+            tf.GameName = GameName.Dota2;
+            tf.Gender = "男";
+            tf.Description = "起得早";
+            tf.LiveRooms.Add(new LiveRoom { Name = TvName.DouYu, Url = "http://www.douyutv.com/pudge" });
+            tf.LiveRooms.Add(new LiveRoom { Name = TvName._17173, Url = "http://www.douyutv.com/pudge" });
+            tf.LiveRooms.Add(new LiveRoom { Name = TvName.YY, Url = "http://www.douyutv.com/pudge" });
 
-            Console.WriteLine("ok");
+            DouYuTv dyTV = new DouYuTv();
+            var lives = dyTV.GetDota2();
+            lives.IsOnline(igCuojue);
+
+            Console.WriteLine(igCuojue.IsOnline);
+
             Console.ReadKey();
         }
     }

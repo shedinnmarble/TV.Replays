@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TV.Replays.BLL", "TV.Replay
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{CDB36CBE-67D1-4A42-B746-3EC9EB76C65D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TV.Replays.UI.Portal", "TV.Replays.UI.Portal\TV.Replays.UI.Portal.csproj", "{37101AE2-3A94-4F2B-B299-0EE8A7DA8834}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CDB36CBE-67D1-4A42-B746-3EC9EB76C65D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDB36CBE-67D1-4A42-B746-3EC9EB76C65D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDB36CBE-67D1-4A42-B746-3EC9EB76C65D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37101AE2-3A94-4F2B-B299-0EE8A7DA8834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37101AE2-3A94-4F2B-B299-0EE8A7DA8834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37101AE2-3A94-4F2B-B299-0EE8A7DA8834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37101AE2-3A94-4F2B-B299-0EE8A7DA8834}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,9 +15,9 @@ namespace TV.Replays.Model
 
         private ITv _tv;
 
-        public string TvName { get; set; }
+        public TvName TvName { get; set; }
 
-        public string Room { get; set; }
+        public string RoomUrl { get; set; }
 
         public string Title { get; set; }
 
@@ -31,7 +31,7 @@ namespace TV.Replays.Model
 
         public string GetVideoHtmlCode()
         {
-            return _tv.GetVideoHtmlCode(this.Room);
+            return _tv.GetVideoUrl(this.RoomUrl);
         }
     }
 }

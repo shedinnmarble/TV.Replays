@@ -9,7 +9,7 @@ namespace TV.Replays.Model
 {
     public class DouYuTv : ITv
     {
-        public string Name { get { return "斗鱼TV"; } }
+        public TvName Name { get { return TvName.DouYu; } }
 
         public IEnumerable<Live> GetDota2()
         {
@@ -35,7 +35,7 @@ namespace TV.Replays.Model
                         liveRoom = "http://www.douyutv.com" + liveRoom;
                     }
 
-                    live.Room = liveRoom;
+                    live.RoomUrl = liveRoom;
                     live.Title = a_element.GetAttributeValue("title", "");
                     live.PlayerImg = a_element.FirstChild.FirstChild.GetAttributeValue("src", "");
                     live.PlayerName = a_element.SelectNodes("div")[0].SelectSingleNode("p").SelectNodes("span")[1].InnerText;
@@ -56,7 +56,7 @@ namespace TV.Replays.Model
             throw new NotImplementedException();
         }
 
-        public string GetVideoHtmlCode(string liveRoom)
+        public string GetVideoUrl(string liveRoom)
         {
             try
             {
@@ -72,9 +72,9 @@ namespace TV.Replays.Model
                 string result = divs[2].SelectSingleNode("input").GetAttributeValue("value", "");
                 return result;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                throw ex;
+                throw new Exception("获取播放地址失败");
             }
         }
     }

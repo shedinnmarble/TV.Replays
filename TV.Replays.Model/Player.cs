@@ -7,6 +7,11 @@ namespace TV.Replays.Model
 {
     public class Player
     {
+        public Player()
+        {
+            LiveRooms = new List<LiveRoom>();
+        }
+
         public string Name { get; set; }
 
         public GameName GameName { get; set; }
@@ -15,9 +20,16 @@ namespace TV.Replays.Model
 
         public string Description { get; set; }
 
-        public bool IsOnline { get; set; }
+        public bool IsOnline
+        {
+            get
+            {
+                IEnumerable<LiveRoom> onlineRoom = LiveRooms.Where(a => a.IsOnline == true);
+                return onlineRoom.Count() != 0;
+            }
+        }
 
-        public string LiveRoomUrl { get; set; }
+        public List<LiveRoom> LiveRooms { get; set; }
     }
 
 

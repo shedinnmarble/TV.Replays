@@ -7,10 +7,10 @@ namespace TV.Replays.Model
 {
     public interface ITv
     {
-        string Name { get; }
+        TvName Name { get; }
         IEnumerable<Live> GetDota2();
         IEnumerable<Live> GetLOL();
 
-        string GetVideoHtmlCode(string liveRoom);
+        string GetVideoUrl(string liveRoom);
     }
 }

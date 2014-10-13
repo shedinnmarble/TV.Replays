@@ -1,0 +1,49 @@
+﻿@{
+    Layout = null;
+}
+@model IEnumerable<TV.Replays.Model.Player>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style>
+        div {
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+        @foreach (var player in Model)
+        {
+            <div>名字：@player.Name</div>
+            <div>性别：@player.Gender</div>
+            <div>游戏：@player.GameName</div>
+            <div>信息：@player.Description</div>
+            <div>
+                状态：
+                @foreach (var liveRoom in player.LiveRooms)
+                {
+                    <br />
+                    <span>
+                        @Html.ActionLink(liveRoom.Name.ToString(), "video", "", new { liveRoom = liveRoom.Url }, null) ---
+                        @if (liveRoom.IsOnline)
+                        {
+                            <span>在线</span>
+                        }
+                        else
+                        {
+                            <span>离线</span>
+                        }
+                    </span>
+                }
+            </div>
+            <hr />
+        }
+
+    </div>
+</body>
+</html>

@@ -1,14 +1,14 @@
 F:\github\TV.Replays\TV.Replays.BLL\bin\Debug\TV.Replays.BLL.dll
 F:\github\TV.Replays\TV.Replays.BLL\bin\Debug\TV.Replays.BLL.pdb
-F:\github\TV.Replays\TV.Replays.BLL\bin\Debug\HtmlAgilityPack.dll
 F:\github\TV.Replays\TV.Replays.BLL\bin\Debug\System.Net.Http.dll
 F:\github\TV.Replays\TV.Replays.BLL\bin\Debug\TV.Replays.IDAL.dll
 F:\github\TV.Replays\TV.Replays.BLL\bin\Debug\TV.Replays.Model.dll
+F:\github\TV.Replays\TV.Replays.BLL\bin\Debug\HtmlAgilityPack.dll
 F:\github\TV.Replays\TV.Replays.BLL\bin\Debug\TV.Replays.IDAL.pdb
 F:\github\TV.Replays\TV.Replays.BLL\bin\Debug\TV.Replays.Model.pdb
+F:\github\TV.Replays\TV.Replays.BLL\bin\Debug\System.Net.Http.xml
 F:\github\TV.Replays\TV.Replays.BLL\bin\Debug\HtmlAgilityPack.pdb
 F:\github\TV.Replays\TV.Replays.BLL\bin\Debug\HtmlAgilityPack.xml
-F:\github\TV.Replays\TV.Replays.BLL\bin\Debug\System.Net.Http.xml
 F:\github\TV.Replays\TV.Replays.BLL\bin\Debug\zh-Hans\System.Net.Http.resources.dll
 F:\github\TV.Replays\TV.Replays.BLL\obj\Debug\TV.Replays.BLL.csprojResolveAssemblyReference.cache
 F:\github\TV.Replays\TV.Replays.BLL\obj\Debug\TV.Replays.BLL.dll

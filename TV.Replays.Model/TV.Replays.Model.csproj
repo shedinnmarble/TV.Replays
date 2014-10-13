@@ -47,14 +47,14 @@
     <Compile Include="GameName.cs" />
     <Compile Include="ITv.cs" />
     <Compile Include="Live.cs" />
+    <Compile Include="LiveExtension.cs" />
+    <Compile Include="LiveRoom.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TvName.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="HTMLPage1.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
