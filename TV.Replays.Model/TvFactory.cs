@@ -24,7 +24,6 @@ namespace TV.Replays.Model
         {
             if (tvList == null)
             {
-                tvList = new List<ITv>();
                 tvList = ReflectionTvList();
             }
             return tvList;
